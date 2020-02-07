@@ -1,11 +1,14 @@
 import Link from "next/link";
-import { gray } from "ansi-colors";
 
 const headerStyle = {
-  color: gray
+  background: `yellow`,
+  margin: 0,
+  height: "100px",
+  display: "flex",
+  alignItems: "center"
 };
 const navLinkStyle = {
-  padding: "0 10px 0 10px"
+  padding: "10px"
 };
 
 const Header = () => (
