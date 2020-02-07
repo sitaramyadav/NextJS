@@ -1,14 +1,15 @@
 import Link from "next/link";
 
 const headerStyle = {
-  background: `yellow`,
+  background: `#03a9f4`,
   margin: 0,
   height: "100px",
   display: "flex",
   alignItems: "center"
 };
 const navLinkStyle = {
-  padding: "10px"
+  padding: "10px",
+  fontSize: "30px"
 };
 
 const Header = () => (
